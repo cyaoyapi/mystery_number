@@ -49,9 +49,9 @@ int game_level_menu(){
 
 
 /*
-    This main function. The program start here.
+    This is main function. The program start here.
 */
-int main()
+int main(int argc, char *argv[])
 {
     int continue_gaming = 1;
     while(continue_gaming){
@@ -88,7 +88,7 @@ int main()
         printf("Bravo, vous avez trouvez le nombre mystère après %d essai(s)!\n",hit_counter);
 
         /*
-            Asked the gamer if he desire to continue
+            Asking the gamer if he desire to continue
         */
         printf("Voulez-vous faire une autre partie de jeu ? \n");
         do{
